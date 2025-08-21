@@ -1,0 +1,58 @@
+# Python & PyCharm .gitignore Template
+# ======================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Environment Variables & Secrets
+*.env
+.env.*
+*.pem
+*.key
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*~
+
+# Documentation
+docs/_build/
+
+# Temporary Files
+*.tmp
+*.cache
+.cache/
+*.bak
