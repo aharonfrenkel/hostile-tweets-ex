@@ -4,6 +4,7 @@ from typing import Self
 import pandas as pd
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+nltk.download('vader_lexicon')
 
 
 WEAPON_LIST = pd.read_csv("../data/weapon_list.txt", header=None)[0].tolist()
